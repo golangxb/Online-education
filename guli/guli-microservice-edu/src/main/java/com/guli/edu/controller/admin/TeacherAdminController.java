@@ -27,12 +27,13 @@ import java.util.List;
 @Api(description = "讲师管理")
 @RestController
 @RequestMapping("/admin/edu/teacher")
+@CrossOrigin
 public class TeacherAdminController {
     @Autowired
     TeacherService teacherService;
 
     @ApiOperation(value = "讲师列表")
-    @GetMapping("list")
+    @GetMapping
     public R getAll(){
 
         List<Teacher> list = teacherService.list(null);
@@ -90,7 +91,7 @@ public class TeacherAdminController {
 
 
     @ApiOperation(value = "新增讲师")
-    @GetMapping
+    @PostMapping
     public R save(
             @ApiParam(name = "teacher", value = "讲师对象", required = true)
             @RequestBody Teacher teacher){

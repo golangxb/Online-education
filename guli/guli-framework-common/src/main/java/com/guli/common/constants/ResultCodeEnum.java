@@ -13,9 +13,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 public enum  ResultCodeEnum {
     SUCCESS(true,20000,"成功"),
     UNKNOWN_REASON(false,20001,"未知错误"),
-    PARAM_ERROR(false,21002,"参数异常"),
+    PARAM_ERROR(false,21003,"参数异常"),
     BAD_SQL_GRAMMAR(false, 21001, "sql语法错误"),
-    JSON_PARSE_ERROR(false, 21002, "json解析异常");
+    JSON_PARSE_ERROR(false, 21002, "json解析异常"),
+    FILE_UPLOAD_ERROR(false, 21004, "文件上传错误");
 
 
 

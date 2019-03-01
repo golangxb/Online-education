@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/guli-framework-parent/pom.xml" />
         <option value="$PROJECT_DIR$/guli-microservice-edu/pom.xml" />
         <option value="$PROJECT_DIR$/guli-framework-common/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-common-serviceoss/pom.xml" />
       </list>
     </option>
   </component>

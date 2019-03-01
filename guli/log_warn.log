@@ -1,2 +1,1 @@
-2019-02-25 13:51:16.884 [http-nio-8101-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: GuliException{message=参数异常, code=21002}
-2019-02-25 15:05:14.473 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=9m29s865ms707µs898ns).
+2019-03-01 13:45:36.006 [GuliHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - GuliHikariPool - Thread starvation or clock leap detected (housekeeper delta=1h2m1s273ms123µs220ns).
